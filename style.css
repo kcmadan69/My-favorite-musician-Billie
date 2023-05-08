@@ -1,0 +1,155 @@
+/* Basic Styles */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+nav {
+	background-color: #f7f7f7;
+	padding: 10px 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.title {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	font-size: 16px;
+}
+
+a:hover {
+	color: #777;
+}
+
+section {
+	padding: 30px;
+	margin: 30px 0;
+	background-color: #f7f7f7;
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+/* Biography Section */
+
+.bio-img {
+	float: left;
+	margin-right: 20px;
+}
+
+.bio-img img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+/* Discography Section */
+
+ol {
+	margin-left: 20px;
+}
+
+/* Media Section */
+
+.media-img {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.media-img img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	margin: 10px;
+}
+
+/* Footer */
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 32px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	nav ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	nav li {
+		margin: 10px 0;
+		display: block;
+	}
+
+	nav a {
+		display: block;
+	}
+
+	section {
+		padding: 20px;
+	}
+
+	.bio-img {
+		float: none;
+		margin: 0 auto 20px auto;
+	}
+
+	.container {
+		width: 100%;
+		height: auto;
+	}
+
+	.media-img img {
+		width: 156px;
+		height: auto;
+		margin: 156px 0;
+	}
+}
+.tabulation label{
+	text-align: center;
+	font-size: x-large;
+}
+.tabulation input{
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+}
